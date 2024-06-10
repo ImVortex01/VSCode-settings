@@ -1,0 +1,50 @@
+{
+  //Open JSON editor settings
+  "workbench.settings.editor": "json",
+  
+  //VScode Theme
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "workbench.iconTheme": "material-icon-theme",
+  
+  //Change Font
+  "editor.fontFamily": "GeistMono Nerd Font Mono",
+  "scm.inputFontFamily": "GeistMono Nerd Font Mono",
+  "chat.editor.fontFamily": "GeistMono Nerd Font Mono",
+  "editor.codeLensFontFamily": "GeistMono Nerd Font Mono",
+  "notebook.output.fontFamily": "GeistMono Nerd Font Mono",
+  "markdown.preview.fontFamily": "GeistMono Nerd Font Mono",
+  "editor.inlayHints.fontFamily": "GeistMono Nerd Font Mono",
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+  "debug.console.fontFamily": "FiraCode Nerd Font Mono",
+  //Font Size
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+
+  //UI settings
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.overviewRulerBorder": false,
+  "editor.formatOnSave": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.guides.indentation": false,
+  "editor.matchBrackets": "never",
+  "editor.guides.bracketPairs": true,
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "breadcrumbs.enabled": false,
+  "indenticator.width": 0.1,
+  "indenticator.color.dark": "rgba(255,255,255,0.3)",
+  "redhat.telemetry.enabled": false,
+  "explorer.confirmDelete": false,
+
+  //Other configs
+  "[java]": {
+    "editor.defaultFormatter": "Oracle.oracle-java"
+  },
+  "gitlens.graph.minimap.additionalTypes": [
+    "localBranches",
+    "stashes",
+    "remoteBranches"
+  ],
+}
